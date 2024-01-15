@@ -1,15 +1,20 @@
 package com.scripter.portfolio.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("v1")
+@Controller
 public class PortfolioController {
 	
-	@GetMapping
+	
+	private static final Logger log = LoggerFactory.getLogger(PortfolioController.class);
+
+	
+	@GetMapping("/")
 	public String name() {
-		return "Shrutosom Bala";
+		log.debug("Loading index page");
+		return "index";
 	}
 }
