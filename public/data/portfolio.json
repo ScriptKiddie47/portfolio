@@ -4,34 +4,111 @@
     "title": "Software Developer",
     "tagline": "Java · Spring Boot · AWS · Cloud-native",
     "location": "Birati, Kolkata, India",
-    "summary": "Cloud‑native backend engineer with a passion for automation and scalable systems.",
+    "summary": "Cloud native backend engineer with a passion for automation and scalable systems.",
     "avatar": "/data/PersonalImage.jpeg"
   },
   "skills": [
-    {"name": "Java",                               "level": "expert",       "category": "Languages"},
-    {"name": "JavaScript",                         "level": "expert",       "category": "Languages"},
-    {"name": "TypeScript",                         "level": "advanced",     "category": "Languages"},
-    {"name": "SQL",                                "level": "advanced",     "category": "Languages"},
-    {"name": "Spring Boot",                        "level": "expert",       "category": "Frameworks"},
-    {"name": "JEE",                                "level": "advanced",     "category": "Frameworks"},
-    {"name": "Hibernate / JPA",                    "level": "advanced",     "category": "Frameworks"},
-    {"name": "Node.js",                            "level": "advanced",     "category": "Frameworks"},
-    {"name": "AWS (Lambda, API Gateway, Cognito)", "level": "advanced",     "category": "Cloud & Infra"},
-    {"name": "Docker",                             "level": "advanced",     "category": "Cloud & Infra"},
-    {"name": "Kubernetes",                         "level": "intermediate", "category": "Cloud & Infra"},
-    {"name": "Terraform",                          "level": "advanced",     "category": "Cloud & Infra"},
-    {"name": "CI/CD (Jenkins, GitHub Actions)",    "level": "advanced",     "category": "Cloud & Infra"},
-    {"name": "MongoDB",                            "level": "advanced",     "category": "Databases"},
-    {"name": "PostgreSQL",                         "level": "advanced",     "category": "Databases"},
-    {"name": "Oracle DB",                          "level": "intermediate", "category": "Databases"},
-    {"name": "MuleSoft Suite",                     "level": "intermediate", "category": "Integration"},
-    {"name": "IBM DataPower",                      "level": "intermediate", "category": "Integration"}
+    {
+      "name": "Java",
+      "level": "expert",
+      "category": "Languages"
+    },
+    {
+      "name": "JavaScript",
+      "level": "expert",
+      "category": "Languages"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "category": "Languages"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "category": "Languages"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "expert",
+      "category": "Frameworks"
+    },
+    {
+      "name": "JEE",
+      "level": "advanced",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Hibernate / JPA",
+      "level": "advanced",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Node.js",
+      "level": "advanced",
+      "category": "Frameworks"
+    },
+    {
+      "name": "AWS (Lambda, API Gateway, Cognito)",
+      "level": "advanced",
+      "category": "Cloud & Infra"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "category": "Cloud & Infra"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "intermediate",
+      "category": "Cloud & Infra"
+    },
+    {
+      "name": "Terraform",
+      "level": "advanced",
+      "category": "Cloud & Infra"
+    },
+    {
+      "name": "CI/CD (Jenkins, GitHub Actions)",
+      "level": "advanced",
+      "category": "Cloud & Infra"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "category": "Databases"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "category": "Databases"
+    },
+    {
+      "name": "Oracle DB",
+      "level": "intermediate",
+      "category": "Databases"
+    },
+    {
+      "name": "MuleSoft Suite",
+      "level": "intermediate",
+      "category": "Integration"
+    },
+    {
+      "name": "IBM DataPower",
+      "level": "intermediate",
+      "category": "Integration"
+    }
   ],
   "projects": [
     {
-      "name": "IPL Dashboard",
+      "name": "Porfolio",
       "description": "Browse IPL teams, past games, win/loss ratios using Spring Boot backend and React front-end with data sourced from Kaggle.",
-      "tech": ["Spring Boot", "Spring Batch", "React", "HSQLDB"],
+      "tech": [
+        "Spring Boot",
+        "Spring Batch",
+        "React",
+        "HSQLDB"
+      ],
       "link": "https://github.com/ScriptKiddie/ipl-dashboard"
     }
   ],
@@ -59,13 +136,22 @@
       "location": "Bengaluru, Karnataka (remote client work)",
       "summary": "Lead developer on insurance/financial applications using Java, Spring Boot, Node and AWS.",
       "highlights": [
-        "Led migration of 10,000 business rules from IBM BRMS to internal platform using Java automation (50% effort reduction)",
-        "Built serverless AWS Lambda service in TypeScript with Terraform IaC, handling CRUD on MongoDB Atlas with CI/CD pipeline",
-        "Developed internal dashboard using Spring Boot, Thymeleaf & HTMX eliminating dependency on data team",
+        "Primarily working as the Lead Developer of an Agile team for an Insurance Client. Developing & Maintaining JEE,Spring - Boot, Node,Cloud based & Custom Financial applications. Forging robust relationships with clients and understanding business requirements. Mentoring and guiding fresh talent within the org & team",
+        "Spearheaded as the Lead Java Developer in automating Migration of IBM Business rule management system (BRMS)  to Client Internal BRMS using Lexical Analysis & Syntax Analysis in Java to generate JS. The automation resulted in 50% reduction of manual efforts. Thanks to the automation 10,000 Rules were migrated to the Client BRMS platform within a period of 1 Year. Rewarded with Accenture ACE award",
+        "Developed internal company dashboard using Spring Boot, Thymeleaf & HTMX eliminating dependency on data team. Made the non techincal staff very happy :)",
         "Evaluated alternatives and recommended Apache Camel for deprecating IBM DataPower gateway",
         "Mentored junior team members and liaised with clients to shape requirements"
       ],
-      "tech": ["Java", "Spring Boot", "Node.js", "AWS Lambda", "Terraform", "MongoDB", "Thymeleaf", "HTMX"]
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "Node.js",
+        "AWS Lambda",
+        "Terraform",
+        "MongoDB",
+        "Thymeleaf",
+        "HTMX"
+      ]
     }
   ]
 }
