@@ -3,7 +3,7 @@
     "name": "Shrutosom Bala",
     "title": "Software Developer",
     "tagline": "Java · Spring Boot · AWS · Cloud-native",
-    "location": "Birati, Kolkata, India",
+    "location": "India",
     "summary": "Cloud native backend engineer with a passion for automation and scalable systems.",
     "avatar": "/data/PersonalImage.jpeg"
   },
@@ -102,7 +102,7 @@
   "projects": [
     {
       "name": "Porfolio",
-      "description": "Browse IPL teams, past games, win/loss ratios using Spring Boot backend and React front-end with data sourced from Kaggle.",
+      "description": "",
       "tech": [
         "Spring Boot",
         "Spring Batch",
